@@ -1,0 +1,43 @@
+.header-style{
+    width: 100%;
+}
+
+.hero-image-plastering {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), url(../assets/plasterheader2.jpg);
+    background-size: cover;
+    height: 320px;
+    background-position: center;
+}
+
+.hero-form {
+    display: none;
+    color:black;
+    background-color:white;
+    border-radius: 8px;
+    padding:1%;
+    width: 40%;
+    margin-left:5%;
+}
+
+.hero-form-field {
+    background: rgb(247, 250, 251);
+}
+
+@media only screen and (min-width : 420px) {
+    .hero-form {
+        display: block;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .hero-image-plastering { 
+        height: 320px; 
+    }
+}
+  
+@media only screen and (min-width : 1200px) {
+    .hero-image-plastering { 
+        height: 380px; 
+        background-position-y: -100px; 
+    }
+}

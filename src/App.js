@@ -2,13 +2,13 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar.js';
-import Header from './components/Header.js';
+import HeroBanner from './components/HeroBanner.js';
 
 function App() {
   return (
     <div>
       <NavBar />
-      <Header />
+      <HeroBanner />
     </div>
   );
 }
