@@ -1,0 +1,13 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 250, 251);
+}
+
+.wording {
+    color:#0f477b;
+    font-size: 25px;
+    padding: 3% 5%;
+    text-align: center;
+}

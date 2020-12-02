@@ -1,0 +1,10 @@
+.card-deck-styling {
+    padding: 30px;
+}
+
+.card-header {
+    color:#0f477b;
+    text-align: left;
+    padding: 2%;
+    background-color: white;
+}
